@@ -17,7 +17,7 @@ Passo 4: Na página de configuração da função, você verá um editor de cód
 
 Passo 5: Clique em adicionar gatilho e clique em API Gateway
 
-Passo 6: Escolha requisição REST e Open.
+Passo 6: Escolha requisição REST e segurança aberta.
 
 Passo 7: Faça um header com a autenticação Bearer 1234
 
