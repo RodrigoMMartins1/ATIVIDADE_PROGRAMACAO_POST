@@ -26,12 +26,13 @@ Passo 8: Body com Json que você queira enviar
 ### Endpoint
 endpoint: https://ouetw2r06k.execute-api.us-east-1.amazonaws.com/default/autoestudofunction
 ### Testes
-
+#### Mensagens
 ```json
 {
-    "body": "{\"name\": \"João\", \"age\": 30, \"city\": \"São Paulo\"}"
+    "body": "{\"name\": \"Alice\", \"age\": 30, \"city\": \"New York\"}"
 }
 ````
+#### Testes Unitários
 - Autenticação aprovada
 <br><br>
 <img width="658" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/36a39c2a-a1b1-47a0-8591-00a9c5ef2375">
