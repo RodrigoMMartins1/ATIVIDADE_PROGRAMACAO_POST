@@ -2,7 +2,7 @@
 # README
 
 ## Função Lambda de Exemplo
-<img width="464" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/c3ed19b6-e960-48c1-8c17-de44e35077e0">
+<img width="552" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/624a11f0-eec3-4c7c-a3b6-ab9bff701969">
 
 
 ### Como Usar
@@ -19,6 +19,10 @@ Passo 5: Clique em adicionar gatilho e clique em API Gateway
 
 Passo 6: Escolha requisição REST e Open.
 
+Passo 7: Faça um header com a autenticação Bearer 1234
+
+Passo 8: Body com Json que você queira enviar
+
 ### Endpoint
 endpoint: https://ouetw2r06k.execute-api.us-east-1.amazonaws.com/default/autoestudofunction
 ### Testes
@@ -28,22 +32,28 @@ endpoint: https://ouetw2r06k.execute-api.us-east-1.amazonaws.com/default/autoest
     "body": "{\"name\": \"João\", \"age\": 30, \"city\": \"São Paulo\"}"
 }
 ````
-<img width="643" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/c9c39a48-3030-4af5-9b7c-a70ad10314cd">
+- Autenticação aprovada
+<br><br>
+<img width="658" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/36a39c2a-a1b1-47a0-8591-00a9c5ef2375">
+<br><br>
+- Autenticação rejeitada
+<br><br>
+<img width="572" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/2496a7cb-b88f-4f5e-b6fe-26cf9c680e65">
+<br><br>
+- Autenticação ausente
+<br><br>
+<img width="643" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/16cea17d-df08-45bd-ac1b-36d6ba4f7a9f">
+<br><br>
+- Autenticação aprovada, porém JSON não valido
+<br><br>
 
-```json
+````json
 {
-    "body": "Isso não é um JSON válido"
+  "body": "Isso não é um JSON válido"
 }
 ````
-<img width="647" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/4cb10d6a-6d69-4c0e-bce4-42d39bb485f7">
+<br><br>
+<img width="599" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/14754081-545a-4294-a730-817f02d0b2ab">
 
-```json
-{
-    "body": "{\"name\": \"Ana\", \"age\": \"não é um número\", \"city\": \"Curitiba\"}"
-}
-````
-<img width="653" alt="image" src="https://github.com/RodrigoMMartins1/ATIVIDADE_PROGRAMACAO_POST/assets/99209230/73c9469b-4475-4745-8220-2b7fa2a490b4">
-
-
-
+  
 
